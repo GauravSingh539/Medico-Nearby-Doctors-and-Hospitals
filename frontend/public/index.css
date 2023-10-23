@@ -1,0 +1,36 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: aqua;
+    height:97px;
+}
+header > div{
+    margin:0 auto;
+    width:1200px;
+    height:97px;
+}
+
+.navbar{
+    display:flex;
+    height:42px;
+    width:1200px;
+    padding-top: 5px;
+}
+.navbar h1{
+    display: flex;
+    margin:0;
+    align-content: center;
+}
+.navbar ul{
+    margin-left:920px;
+    display:flex;
+    text-decoration: none;
+    padding:0px;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-right:10px;
+    
+}

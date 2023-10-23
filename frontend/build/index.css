@@ -1,0 +1,10 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: aqua;
+}
+header h1{
+    display:inline;
+}
