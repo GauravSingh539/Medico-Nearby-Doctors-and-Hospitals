@@ -17,7 +17,6 @@ const UserSchema = new Schema({
     email:{
         type:String,
         required:true,
-        unique:true
     },
     password:{
         type:String,
@@ -26,7 +25,6 @@ const UserSchema = new Schema({
     contact:{
         type:Number,
         required:true,
-        unique:true
     },
     date:{
         type :Date,
@@ -34,6 +32,7 @@ const UserSchema = new Schema({
     }
 })
 
+//Creating a user model based on the above schema.
 const User = mongoose.model('user',UserSchema);
-User.createIndexes();
+
 module.exports = User;
