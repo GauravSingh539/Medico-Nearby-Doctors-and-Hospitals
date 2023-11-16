@@ -2,21 +2,27 @@ const mongoose = require("mongoose");
 const {Schema} = mongoose;
 
 const DoctorSchema = new Schema({
-    name:{
+    firstName:{
+        type:String,
+        required : true
+    },
+    lastName:{
         type:String,
         required:true
     },
-    Photo:{
-
-    },
-    address:{
+    specialization:{
         type:String,
         required:true
     },
-    location:{
-        type:String
+    hospital:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'hospital'
     },
-})
+    experience:{
+        type:Number,
+        required:true
+    }
+});
 
 const Doctor = mongoose.model('doctor',DoctorSchema);
 
