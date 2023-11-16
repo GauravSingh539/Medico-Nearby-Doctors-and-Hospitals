@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
 //Available routes
 app.use("/api/auth",require("./routes/auth"));
+app.use("/api/fetchData",require("./routes/fetchData"));
 
 
 app.listen(port,()=>{
