@@ -4,6 +4,7 @@ const {body,validationResult} = require("express-validator");
 const bcyrpt = require("bcrypt");
 var jwt = require("jsonwebtoken");
 var fetchuser = require('../middlewares/fetchuser');
+const Hospital = require("../Models/Hospital");
 
 const JWT_DATA = "hEYgAURAV$1";
 const router = express.Router();
@@ -128,5 +129,7 @@ router.post('/getuser',fetchuser,
         }
     }
  )
+
+
 
 module.exports = router;

@@ -1,36 +1,248 @@
 body{
     margin:0;
+    color: var(--black);
+    letter-spacing: -.02em;
+    padding-top: 0;
+    font-family: Avantt, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    min-height: 100%;
+    color: #333;
+    background-color: #edf1f6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header{
+    z-index: 9999;
+    background-image: none;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.w-nav{
+    z-index:1000;
+    background: #ddd;
+    position:relative;
+}
+.nav{
+    max-width: 1350px;
+    letter-spacing: -.02em;
+    background-color:#fff;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.05;
+    display: block;
+    position: relative;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, .2);
 }
 
-header{
-    background-color: aqua;
-    height:97px;
+.nav-content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
-header > div{
-    margin:0 auto;
-    width:1200px;
-    height:97px;
+.nav-content-primary-wrapper {
+    display: block;
 }
-
-.navbar{
-    display:flex;
-    height:42px;
-    width:1200px;
-    padding-top: 5px;
-}
-.navbar h1{
+.nav-content-primary {
+    width: 100%;
+    min-height: 70px;
+    grid-column-gap: 16px;
+    grid-row-gap: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
-    margin:0;
-    align-content: center;
 }
-.navbar ul{
-    margin-left:920px;
+
+.nav-left {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    color:green;
+}
+
+.nav-menu-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+    position: static;
+}
+.w-nav-menu {
+    float: right;
+    position: relative;
+}
+
+.nav-menu-content{
     display:flex;
-    text-decoration: none;
-    padding:0px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position:static;
+    grid-column-gap:1.25rem;
+    transition: opacity 0.3s;
 }
-.navbar ul li{
-    list-style-type: none;
-    margin-right:10px;
-    
+
+.nav-link {
+    min-height: 70px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    transition-duration: .25s;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: opacity 0.25s;
+    text-decoration:none;
+}
+.nav-menu-content:hover > .nav-link{
+    opacity:0.5;
+}
+
+.nav-menu-content:hover > .nav-link:hover{
+    opacity:1.0;
+}
+
+.nav-buttons{
+    display:flex;
+    float:right;
+    flex-direction: row;
+    align-items: center;
+    grid-column-gap:8px;
+}
+
+.button-tb{
+    width:auto;
+    color:black;
+    border: 1px solid black;
+    border-radius:500px;
+    height:42px;
+    text-align:center;
+    padding: 12.5px 24px;
+    height:fit-content;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.button-tb:hover{
+    background-color: black;
+    color:white;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.top-container{
+    position:relative;
+    width:100%;
+    z-index: 1;
+}
+.top-container h1{
+    color: black;
+    display: inline-block;
+    width:fit-content;
+    position:relative;
+    left:40%;
+}
+.top-container select{
+    justify-content: center;
+    position:relative;
+    font-size: large;
+    width:auto;
+    color:black;
+    border: 1px solid black;
+    border-radius:500px;
+    height:42px;
+    text-align:center;
+    padding: 12.5px 24px;
+    height:fit-content;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.top-container select:hover{
+    background-color: black;
+    color:white;
+}
+.top-container form{
+    display: inline-block;
+    position:relative;
+    left:65%;
+}
+
+.hospital-card{
+    margin-top:100px;
+    height: 350px;
+    width: 350px;
+    /* background-color:white; */
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, .2);
+    display:flex;
+    flex-direction: column;
+}
+
+.hospital-image{
+    height:250px;
+    width:350px;
+    border-radius: 5% 5% 0 0;
+}
+
+.hospital-name{
+    font-size:1.5rem;
+    line-height:1.5;
+    margin-top: 0;
+}
+
+.hospital-rating{
+    background-color: green;
+    display:inline-block;
+    width:40px;
+    color:white;
+    border-radius:15%;
+    margin-left:10px;
+    font-size:1rem;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.hospital-address{
+    color:grey;
+    margin-left:10px;
+}
+
+.doctor-name{
+    font-size:1.5rem;
+    line-height:1.5;
+    margin-left:10px;
+}
+
+.doctor-image{
+    height:250px;
+    width:250px;
+    border-radius: 5% 5% 0 0;
+    margin-left:50px;
+}
+
+.doctor-experience,.doctor-speciality{
+    color:grey;
+    margin-left:10px;
 }

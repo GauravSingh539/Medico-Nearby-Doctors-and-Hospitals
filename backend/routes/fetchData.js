@@ -1,15 +1,16 @@
 const express = require("express");
 const Hospital = require("../Models/Hospital");
 const Doctor = require("../Models/Doctor");
-const {body,validationResult} = require("express-validator");
-const bcyrpt = require("bcrypt");
-var jwt = require("jsonwebtoken");
+
 
 const router = express.Router();
 
-router.get('/getHospitals',async(req,res)=>{
+//Fetch hospital details
+router.post('/getHospitals',async(req,res)=>{
     try{
-        res.send(Hospital)
+        console.log(req.body.City);
+        let hospital = await Hospital.find({City:req.body.City});
+        res.json(hospital);
     }
     catch(error){
         console.log(error.message);
@@ -17,9 +18,12 @@ router.get('/getHospitals',async(req,res)=>{
     }
 })
 
-router.get('/getDoctors',async(req,res)=>{
+
+router.post('/getDoctors',async(req,res)=>{
     try{
-        res.send(Doctor)
+        console.log(req.body.HOSPITAL);
+        let doctor = await Doctor.find({HOSPITAL:req.body.HOSPITAL});
+        res.json(doctor);
     }
     catch(error){
         console.log(error.message);

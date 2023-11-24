@@ -2,31 +2,27 @@ const mongoose = require("mongoose");
 const {Schema} = mongoose;
 
 const HospitalSchema = new Schema({
-    name:{
+    Name:{
         type:String,
         required:true
     },
-    hosPhoto:{
+    Image:{
 
     },
-    address:{
+    Address:{
         type:String,
         required:true
     },
-    location:{
+    City:{
         type:String
     },
-    contact:{
+    Contact:{
         type:Number,
         required:true
     },
-    doctors:[
-        {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:'doctor'
-        }
-    ]
-
+    Rating:{
+        required:true
+    }
 
 })
 
