@@ -21,10 +21,10 @@ function Navbar(){
                                 <Link to = "/SignUp" className = "nav-link">SignUp</Link> */}
                             </div>
                         </nav>
-                        <div className = "nav-buttons">
+                        {/* <div className = "nav-buttons">
                             <Link to = "/Login" className = "button-tb">Log In</Link>
                             <Link to = "/SignUp" className = "button-tb">Sign Up</Link> 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
