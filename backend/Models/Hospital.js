@@ -4,24 +4,24 @@ const {Schema} = mongoose;
 const HospitalSchema = new Schema({
     Name:{
         type:String,
-        required:true
+        //required:true
     },
     Image:{
 
     },
     Address:{
         type:String,
-        required:true
+        //required:true
     },
     City:{
         type:String
     },
     Contact:{
         type:Number,
-        required:true
+        //required:true
     },
     Rating:{
-        required:true
+        //required:true
     }
 
 })
