@@ -13,5 +13,5 @@ If you want to contribute to Medico follow my steps -
   4.If it is good i will accept the request.
   5.Thank you in advance for your contribution.
 
-Oh yeah i forgot one thing... if you want to run the project on your device... navigate to frontend folder in your terminal and tyoe "npm run both"
+Oh yeah i forgot one thing... if you want to run the project on your device... navigate to frontend folder in your terminal and type "npm run both"
 It will do the work.
