@@ -141,6 +141,10 @@ body{
     color:white;
 }
 
+.container{
+    width:100%;
+}
+
 .card-container{
     display:flex;
     flex-direction: row;
@@ -188,6 +192,7 @@ body{
 .hospital-card{
     margin-top:100px;
     height: 350px;
+    max-height: fit-content;
     width: 350px;
     /* background-color:white; */
     position: relative;
@@ -199,7 +204,7 @@ body{
 
 .hospital-image{
     height:250px;
-    width:350px;
+    width:100%;
     border-radius: 5% 5% 0 0;
 }
 
@@ -245,4 +250,17 @@ body{
 .doctor-experience,.doctor-speciality{
     color:grey;
     margin-left:10px;
+}
+
+@media screen and (max-width:480px){
+    .card-container{
+        width:100%;
+        padding-left:30%;
+    }
+    .hospital-card{
+        width:100%;
+    }
+    .top-container h1{
+        left:20%;
+    }
 }

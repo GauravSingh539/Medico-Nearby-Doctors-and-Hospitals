@@ -18,7 +18,7 @@ router.post('/getHospitals',async(req,res)=>{
     }
 })
 
-
+//Fetch Doctors Details
 router.post('/getDoctors',async(req,res)=>{
     try{
         console.log(req.body.HOSPITAL);
