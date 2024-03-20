@@ -18,8 +18,9 @@ router.post('/createUser',
     body('firstName',"Enter a valid first name").isLength({min:3}),
     body('middleName',"Enter a valid middle name").isLength({min:3}),
     body('lastName',"Enter a valid last name").isLength({min:3}),
-    body('contact',"Enter a valid 10 digit phone number").isLength(10),
+    body('contact',"Enter a valid 10 digit phone number").isLength({max:10},{min:10}),
     body('password',"Enter a valid password").isLength({min:5}),
+    body('zip',"Enter a valid zip code").isLength(6)
     ],
     
     async (req,res)=>{
@@ -27,16 +28,21 @@ router.post('/createUser',
     //If there are errors.Return bad req and errors.
     const errors = validationResult(req);
     if(!errors.isEmpty()){
-        res.send({ errors: errors.array() });
+        res.json({ errors: errors.array() });
     }
 
     //Check whether the user with the same email exists.
     try{
-
-    let user = await User.findOne({email:req.body.email});
-    if(user){
-        return res.status(400).json({error:"Sorry a user with this email id already exists"})
+    let user1 = await User.findOne({email:req.body.email});
+    if(user1){
+        alert("error:Sorry a user with this email id already exists");
+        return res.status(400).json({error:"Sorry a user with this email id already exists"});
     }
+
+    // let user2 = await User.findOne({contact:req.body.contact});
+    // if(user2){
+    //     return res.status(400).json({error:"Sorry a user with this mobile no. already exists"})
+    // }
 
     // Hashing password and adding salt to the password.
     const salt = await bcyrpt.genSalt(10);
@@ -49,8 +55,12 @@ router.post('/createUser',
             middleName:req.body.middleName,
             lastName:req.body.lastName,
             email:req.body.email,
+            password:secPass,
+            address:req.body.address,
             contact:req.body.contact,
-            password:secPass
+            city:req.body.city,
+            state:req.body.state,
+            zip:req.body.zip
         }
     );
 
@@ -65,7 +75,7 @@ router.post('/createUser',
 
     }catch(error){
         console.log(error.message);
-        res.status(500).send("Internal server error");
+        return res.status(500).send("Internal server error");
     }
 })
 
