@@ -1,0 +1,286 @@
+[{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b68"
+  },
+  "S": {
+    "NO": 1
+  },
+  "Name": "Ram krishnancare hospital",
+  "Address": " Dhamtari Raod Pachpedi naka",
+  "ContactNumber": {
+    "$numberLong": "4068106589"
+  },
+  "City": "Raipur",
+  "Rating": 4.4,
+  "Image": "https://www.carehospitals.com/raipur/assets/images/main/raipur-care-hospitals.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b69"
+  },
+  "S": {
+    "NO": 2
+  },
+  "Name": "Suyash Hospital",
+  "Address": " Gayatari Road near Avinash Lifestyle kota",
+  "ContactNumber": {
+    "$numberLong": "9926386660"
+  },
+  "City": "Raipur",
+  "Rating": 4.5,
+  "Image": "https://content.jdmagicbox.com/comp/raipur-chhattisgarh/g3/9999px771.x771.120211131655.i1g3/catalogue/suyash-hospital-kota-raipur-chhattisgarh-hospitals-61yb3kwzpf.jpg?clr=#492c1d"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6a"
+  },
+  "S": {
+    "NO": 3
+  },
+  "Name": "Nh Mmi Narayana Hospital",
+  "Address": "  Dhamtari Raod Pachpedi naka Road",
+  "ContactNumber": {
+    "$numberLong": "8067506909"
+  },
+  "City": "Raipur",
+  "Rating": 4.9,
+  "Image": "https://www.narayanahealth.org/sites/default/files/hospitals/mmi-nmh-raipur.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6b"
+  },
+  "S": {
+    "NO": 4
+  },
+  "Name": "Shree Narayana ",
+  "Address": "Mandi Road near Ganj Mandi Pandri",
+  "ContactNumber": {
+    "$numberLong": "9300373737"
+  },
+  "City": "Raipur",
+  "Rating": 3.3,
+  "Image": "https://content3.jdmagicbox.com/comp/raipur-chhattisgarh/h1/9999px771.x771.130805161954.f5h1/catalogue/shree-narayana-hospital-pandri-raipur-chhattisgarh-hospitals-4a4x49h.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6c"
+  },
+  "S": {
+    "NO": 5
+  },
+  "Name": "Shri Jagananath Multispeciality ",
+  "Address": "csidc Mahadev Ghat Road ,Raipura",
+  "ContactNumber": {
+    "$numberLong": "8818871717"
+  },
+  "City": "Raipur",
+  "Rating": 3.9,
+  "Image": "https://content3.jdmagicbox.com/comp/raipur-chhattisgarh/a5/9999px771.x771.160404122309.m9a5/catalogue/shree-jagannath-multispeciality-hospital-raipura-raipur-chhattisgarh-dermatologists-17904hb.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6d"
+  },
+  "S": {
+    "NO": 6
+  },
+  "Name": "Mmr Hospital ",
+  "Address": "Kamal Vihar",
+  "ContactNumber": {
+    "$numberLong": "8123814068"
+  },
+  "": "R",
+  "City": "Raipur",
+  "Rating": 4.9,
+  "Image": "https://images.jdmagicbox.com/comp/raipur-chhattisgarh/q3/9999px771.x771.231014173544.q3q3/catalogue/nbnvy42u8ij36ub-mtcvxly4ni.jpg?clr="
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6e"
+  },
+  "S": {
+    "NO": 7
+  },
+  "Name": "Urmila Memorial Hospital",
+  "Address": "Bhatgaon",
+  "ContactNumber": {
+    "$numberLong": "7942775189"
+  },
+  "": "Raipur",
+  "Rating": 4.2,
+  "Image": "https://content.jdmagicbox.com/comp/raipur-chhattisgarh/i5/9999px771.x771.140214172814.j3i5/catalogue/urmila-memorial-hospital-bhatagaon-raipur-chhattisgarh-hospitals-yzpev7lgo6.jpg?clr=#3a57f",
+  "City": "Raipur"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b6f"
+  },
+  "S": {
+    "NO": 8
+  },
+  "Name": "Medlife Super Speciality Hospital",
+  "Address": "Telibandha ",
+  "ContactNumber": {
+    "$numberLong": "8971776526"
+  },
+  "City": "Raipur",
+  "Rating": 4.4,
+  "Image": "https://medilifehospitalbhopal.in/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-3.25.56-PM-e1679310833951.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b70"
+  },
+  "S": {
+    "NO": 9
+  },
+  "Name": "Gaytri Hospital",
+  "Address": "Behind Ralas Enclave,Daganiya",
+  "ContactNumber": {
+    "$numberLong": "7712263305"
+  },
+  "City": "Raipur",
+  "Rating": 3.9,
+  "Image": "https://images1-fabric.practo.com/practices/1157886/gayatri-hospital-raipur-5c684595c4ebf.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b71"
+  },
+  "S": {
+    "NO": 10
+  },
+  "Name": "Pulse Hospital",
+  "Address": "Dist:2/4 Nehru Nagar(west)  ",
+  "ContactNumber": {
+    "$numberLong": "7884014141"
+  },
+  "City": "Bhilai",
+  "Rating": 3.2,
+  "Image": "https://pulsehospitalbhilai.com/main/images/pulse-hospital.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b72"
+  },
+  "S": {
+    "NO": 11
+  },
+  "Name": "Sparsh Multispecialty",
+  "Address": "Contractor colony,sirsa Road Ram Nagar",
+  "ContactNumber": {
+    "$numberLong": "7884252222"
+  },
+  "City": "Bhilai",
+  "Rating": 4.7,
+  "Image": "https://content3.jdmagicbox.com/comp/bhilai/dc/9999px788.x788.1239952343w5n8i1.dc/catalogue/sparsh-multispecialty-hospital-supela-bhilai-hospitals-2a84u5v.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b73"
+  },
+  "S": {
+    "NO": 12
+  },
+  "Name": "HI-TEK hospital",
+  "Address": "Junwani Rd , near Surya TI Mall ",
+  "ContactNumber": {
+    "$numberLong": "7884056666"
+  },
+  "City": "Bhilai",
+  "Rating": 4.1,
+  "Image": "https://content.jdmagicbox.com/comp/bhilai/n4/9999px788.x788.140609180439.c5n4/catalogue/hi-tek-superspeclality-hospital-bhilai-bhilai-hospitals-gsj7xwkcfq.jpg?clr=#49491d"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b74"
+  },
+  "S": {
+    "NO": 13
+  },
+  "Name": "Chandulal Chandrakar Memorial",
+  "Address": "682F+33V,Nehru Nagar Main Rd west",
+  "ContactNumber": {
+    "$numberLong": "9993095243"
+  },
+  "City": "Bhilai",
+  "Rating": 3.3,
+  "Image": "https://www.ccmgmcdurg.ac.in/image/home_mpai8a.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b75"
+  },
+  "S": {
+    "NO": 14
+  },
+  "Name": "Mittal Hospital ",
+  "Address": "Junwani Rd , near Surya TI Mall ",
+  "ContactNumber": "N/A",
+  "City": "Bhilai",
+  "Rating": 3.8,
+  "Image": "https://lh5.googleusercontent.com/p/AF1QipMvOZnEBj2qFErhbeA-ek0ZKtrGixydkdZoCxG8"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b76"
+  },
+  "S": {
+    "NO": 15
+  },
+  "Name": "J L N Hospital",
+  "Address": "58Q8+G&G Hospital Sector 9",
+  "ContactNumber": "N/A",
+  "City": "Bhilai",
+  "Rating": 3.8,
+  "Image": "https://new-img.patrika.com/upload/2018/05/07/sect9.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b77"
+  },
+  "S": {
+    "NO": 16
+  },
+  "Name": "B.M.shah Hospital",
+  "Address": "Shastri Nagar ",
+  "ContactNumber": {
+    "$numberLong": "7773077711"
+  },
+  "City": "Bhiali",
+  "Rating": 4.8,
+  "Image": "https://content.jdmagicbox.com/comp/bhilai/i5/9999px788.x788.140822190053.d8i5/catalogue/b-m-shah-hospital-and-medical-research-centre-shastri-nagar-durg-hospitals-g0ta83.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b78"
+  },
+  "S": {
+    "NO": 17
+  },
+  "Name": "S.S Hospital",
+  "Address": "Light Industrail Area ",
+  "ContactNumber": {
+    "$numberLong": "7886532040"
+  },
+  "City": "Bhilai",
+  "Rating": 3.7,
+  "Image": "https://www.joonsquare.com/usermanage/image/business/s-s-hospital-durg-11962/s-s-hospital-durg-logo.jpg"
+},
+{
+  "_id": {
+    "$oid": "6560e40b4c8a258232d56b79"
+  },
+  "S": {
+    "NO": 18
+  },
+  "Name": "Aarogyam Superspeciality",
+  "Address": "Near D-Mart Durg by pass Road",
+  "ContactNumber": {
+    "$numberLong": "9755421861"
+  },
+  "City": "Bhilai",
+  "Rating": 4.3,
+  "Image": "https://ashaarogyam.com/content%20aarogyam/ash%20hospital%20front%20pic.webp"
+}]

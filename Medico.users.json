@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "65b1066b7d4a41c458d79b84"
+  },
+  "firstName": "Gaurav",
+  "middleName": "Kumar",
+  "lastName": "Singh",
+  "email": "gauravkumar9303@gmail.com",
+  "password": "$2b$10$WmgiBsZe.AMozRK0OZTa/un7.Izv8yvFdA0RmvvG/1Xs9k8ddICfq",
+  "address": "LIG-1846",
+  "contact": {
+    "$numberLong": "9166122539"
+  },
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "zip": 492099,
+  "date": {
+    "$date": "2024-01-24T12:45:31.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b110d9928f9ea26ebd3173"
+  },
+  "firstName": "Gaurav",
+  "middleName": "Kumar",
+  "lastName": "Singh",
+  "email": "gauravpro9303@gmail.com",
+  "password": "$2b$10$v8f/F16wjI6UPtOmHOHiBuJd3SjZ24iNGRZ1OkGES/goCT/evcCRa",
+  "address": "LIG-1846",
+  "contact": {
+    "$numberLong": "91661225399"
+  },
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "zip": 492099,
+  "date": {
+    "$date": "2024-01-24T13:30:01.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b11351c9d6d59708c77f71"
+  },
+  "firstName": "Gaurav",
+  "middleName": "Kumar",
+  "lastName": "Singh",
+  "email": "gauravks9303@gmail.com",
+  "password": "$2b$10$zJIVo7D.8z3hFBeVfGAnPeVAYUXNGbsu0vx15cwJalLntxlBUnda2",
+  "address": "LIG-1846",
+  "contact": 916612253,
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "zip": 492099,
+  "date": {
+    "$date": "2024-01-24T13:40:33.784Z"
+  },
+  "__v": 0
+}]
