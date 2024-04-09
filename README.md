@@ -13,5 +13,7 @@ If you want to contribute to Medico follow my steps -
   4.If it is good i will accept the request.
   5.Thank you in advance for your contribution.
 
-Oh yeah i forgot one thing... if you want to run the project on your device... navigate to frontend folder in your terminal and type "npm run both"
-It will do the work.
+If you want to run the project on your device navigate to frontend folder in your terminal and type "npm run both"
+It will do the work and make sure to make a db in your mongodb compass and replace the address of the db in db.js in backend
+folder to your mongodb compass address. You can put your own data according to your locality or you can just import the json
+files in the project folder (Medico.doctors.json, Medico.hospitals.json, Medico.users.json).
