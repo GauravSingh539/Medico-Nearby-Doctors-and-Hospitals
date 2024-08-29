@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const username = encodeURIComponent("Coderbutgs");
 const password = encodeURIComponent("Gaurav9303");
 
-const mongoURI = "mongodb+srv://vercel-admin-user:gaurav9303@medico.ouetrsn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://vercel-admin-user:gaurav9303@medico.ouetrsn.mongodb.net/Medico?retryWrites=true&w=majority";
 
 const connectionParams ={
     useNewUrlParser: true,
